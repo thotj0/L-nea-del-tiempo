@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Neucha', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Colores de fondo para las secciones */
+#inicio { background-color: #F6830F; }
+#parte1 { background-color: #FCF8E8; }
+#parte2 { background-color: #D4E2D4; }
+#parte3 { background-color: #ECB390; }
+#parte4 { background-color: #E5DF88; }
+#parte5 { background-color: #FFE5B9; }
+#parte6 { background-color: #EBD4D4; }
+#parte7 { background-color: #C9CBFF; }
+#parte8 { background-color: #A6A9B6; }
+#parte9 { background-color: #F5F4F4; }
+#parte10 { background-color: #FCD1D1; }
+#parte11 { background-color: #ECE2E1; }
+
+#inicio h1 {
+    font-size: 4.25rem; /* Ajustado a rem */
+    letter-spacing: 0.3125rem; /* Ajustado a rem */
+}
+
+section h2 {
+    font-size: 3.125rem; /* Ajustado a rem */
+    letter-spacing: 0.3125rem; /* Ajustado a rem */
+    text-align: center;
+}
+
+section img {
+    margin-top: 1.875rem; /* Ajustado a rem */
+    max-width: 100%; /* Responsivo */
+    height: auto; /* Mantener la proporción */
+}
+
+.tiempos {
+    position: fixed;
+    top: 1.25rem; /* Ajustado a rem */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    overflow-x: auto; /* Permitir desplazamiento horizontal */
+    white-space: nowrap; /* Evita el ajuste en una nueva línea */
+    width: 90%;
+    max-width: 75rem; /* Ajustado a rem */
+}
+
+.tiempos::-webkit-scrollbar {
+    height: 0.5rem; /* Ajusta la altura de la barra de desplazamiento */
+}
+
+.tiempos::-webkit-scrollbar-thumb {
+    background-color: #2D4059;
+    border-radius: 0.25rem;
+}
+
+.tiempos .barra-tiempos {
+    width: 100%;
+    position: absolute;
+    top: 1.875rem; /* Ajustado a rem */
+    height: 0.125rem; /* Ajustado a rem */
+    background-color: black;
+    z-index: -2;
+}
+
+.tim {
+    display: inline-block;
+    font-size: 1.25rem; /* Ajustado a rem */
+    width: 3.75rem; /* Ajustado a rem */
+    height: 3.75rem; /* Ajustado a rem */
+    border-radius: 50%;
+    background-color: #2D4059;
+    text-decoration: none;
+    color: white;
+    margin: 0 1rem; /* Ajustado a rem */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+    transition: background-color, transform 0.5s linear;
+}
+
+@media (max-width: 768px) {
+    .tim {
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1rem;
+        margin: 0 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .tiempos {
+        top: 0.625rem; /* Ajustado a rem */
+    }
+    .tim {
+        width: 2rem;
+        height: 2rem;
+        font-size: 0.875rem;
+        margin: 0 0.25rem;
+    }
+}
+
+.seleccionado {
+    transform: scale(1.2);
+    background-color: #EA5455;
+    color: #000;
+    font-weight: bold;
+}

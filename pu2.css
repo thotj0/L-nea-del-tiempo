@@ -57,7 +57,7 @@ section img {
     transform: translateX(-50%);
     display: flex;
     justify-content: center;
-    overflow-x: auto; /* Permitir desplazamiento horizontal */
+    overflow: auto; /* Permitir desplazamiento horizontal */
     white-space: nowrap; /* Evita el ajuste en una nueva línea */
     width: 90%;
     max-width: 75rem; /* Ajustado a rem */

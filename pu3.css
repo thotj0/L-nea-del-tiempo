@@ -70,10 +70,10 @@ section img{
 	top: 20px;
 	left: 50%;
 	transform: translateX(-50%);
-    overflow-x: auto; /* Permitir desplazamiento horizontal */
-    white-space: nowrap;
 	display: flex;
 	justify-content: center;
+    overflow: auto;
+    white-space: nowrap;
 }
 .tiempos .barra-tiempos{
 	width: 900px;

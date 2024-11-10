@@ -17,40 +17,40 @@ section{
 	align-items: center;
 }
 #inicio{
-	background-color: #F6830F;
+	background-color: #ffafcc;
 }
 #parte1{
-	background-color: #FCF8E8;
+	background-color: #ffc8dd;
 }
 #parte2{
-	background-color: #D4E2D4;
+	background-color: #bde0fe;
 }
 #parte3{
-	background-color: #ECB390;
+	background-color: #a2d2ff;
 }
 #parte4{
-	background-color: #E5DF88;
+	background-color: #ffd6ff;
 }
 #parte5{
-	background-color: #FFE5B9;
+	background-color: #e7c6ff;
 }
 #parte6{
-	background-color: #EBD4D4;
+	background-color: #c8b6ff;
 }
 #parte7{
-	background-color: #C9CBFF;
+	background-color: #b8c0ff;
 }
 #parte8{
-	background-color: #A6A9B6;
+	background-color: #ffc8dd;
 }
 #parte9{
-	background-color: #F5F4F4;
+	background-color: #bde0fe;
 }
 #parte10{
-	background-color: #FCD1D1;
+	background-color: #a2d2ff;
 }
 #parte11{
-	background-color: #ECE2E1;
+	background-color: #ffd6ff;
 }
 #inicio h1{
 	font-size: 68px;
@@ -78,7 +78,7 @@ section img{
 	position: absolute;
 	top: 30px;
 	height: 2px;
-	background-color: black;
+	background-color: #b899ca;
 	z-index: -2;
 
 }
@@ -88,7 +88,7 @@ section img{
 	width: 60px;
 	height: 60px;
 	border-radius: 50%;
-	background-color: #2D4059;
+	background-color: #cdb4db;
 	text-decoration: none;
 	color: white;
 	margin: 0 15px;

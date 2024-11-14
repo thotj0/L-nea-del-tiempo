@@ -22,18 +22,36 @@ section {
 }
 
 /* Colores de fondo para las secciones */
-#inicio { background-color: #F6830F; }
-#parte1 { background-color: #FCF8E8; }
-#parte2 { background-color: #D4E2D4; }
-#parte3 { background-color: #ECB390; }
-#parte4 { background-color: #E5DF88; }
-#parte5 { background-color: #FFE5B9; }
-#parte6 { background-color: #EBD4D4; }
-#parte7 { background-color: #C9CBFF; }
-#parte8 { background-color: #A6A9B6; }
-#parte9 { background-color: #F5F4F4; }
-#parte10 { background-color: #FCD1D1; }
-#parte11 { background-color: #ECE2E1; }
+#inicio{
+	background-color: #ffafcc;
+}
+#parte1{
+	background-color: #ffc8dd;
+}
+#parte2{
+	background-color: #bde0fe;
+}
+#parte3{
+	background-color: #a2d2ff;
+}
+#parte4{
+	background-color: #ffd6ff;
+}
+#parte5{
+	background-color: #e7c6ff;
+}
+#parte6{
+	background-color: #c8b6ff;
+}
+#parte7{
+	background-color: #b8c0ff;
+}
+#parte8{
+	background-color: #ffc8dd;
+}
+#parte9{
+	background-color: #bde0fe;
+}
 
 /* Ajuste de tamaños de texto */
 #inicio h1 {
@@ -70,7 +88,7 @@ section img {
     position: absolute;
     top: 1.875rem; /* Ajustado a rem */
     height: 0.125rem; /* Ajustado a rem */
-    background-color: black;
+    background-color: #b899ca;
     z-index: -2;
 }
 
@@ -81,7 +99,7 @@ section img {
     width: 3.75rem; /* Ajustado a rem */
     height: 3.75rem; /* Ajustado a rem */
     border-radius: 50%;
-    background-color: #2D4059;
+    background-color: #cdb4db;
     text-decoration: none;
     color: white;
     margin: 0 1rem; /* Ajustado a rem */
